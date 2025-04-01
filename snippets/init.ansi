@@ -1,0 +1,11 @@
+[33m?[39m Project name [90m(tauri-app)[39m: 
+[33m?[39m Identifier [90m(com.tauri-app.app)[39m: 
+[33m?[39m Choose which language to use for your frontend [90m(TypeScript / JavaScript - (pnpm, yarn, npm, deno, bun))[39m: 
+[33m?[39m Choose your package manager [90m(npm)[39m: 
+[33m?[39m Choose your UI template [90m(Vue - (https://vuejs.org/))[39m: 
+[33m?[39m Choose your UI flavor [90m(TypeScript)[39m: 
+
+Template created! To get started run:
+  cd tauri-app
+  npm install
+  npm run tauri dev
