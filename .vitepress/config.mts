@@ -8,7 +8,7 @@ export default defineConfig({
         logo: '/logo.svg',
         // https://vitepress.dev/reference/default-theme-config
         nav: [
-            {text: 'Guide', link: '/guide/getting-started'},
+            {text: 'Guide', link: '/guide/getting-started', activeMatch: '/guide/'},
             {text: 'Reference', link: '/reference'},
             {text: 'Changelog', link: 'https://github.com/pytauri/pytauri/blob/main/CHANGELOG.md'},
         ],
@@ -21,27 +21,43 @@ export default defineConfig({
                             text: 'Introduction',
                             collapsed: false,
                             items: [
-                                {text: 'What is PyTauri?', link: '/what-is-pytauri'},
-                                {text: 'Getting started', link: '/getting-started'},
+                                {text: 'What is PyTauri?', link: 'what-is-pytauri'},
+                                {text: 'Getting started', link: 'getting-started'},
+                                {text: 'Deploy', link: 'deploy'},
+                            ]
+                        },
+                        {
+                            text: 'Inter-process communication',
+                            collapsed: false,
+                            items: [
+                                {text: 'Overview', link: 'overview'},
+                                {text: 'Commands', link: 'commands'},
+                                {text: 'Channels', link: 'channels'},
+                                {text: 'Event system', link: 'event-system'},
                             ]
                         },
                         {
                             text: 'Core concepts',
-                            collapsed: true,
+                            collapsed: false,
                             items: [
                                 {
-                                    text: 'Inter-process communication',
-                                    link: '/inter-process-communication'
+                                    text: 'State management',
+                                    link: 'state-management',
+                                },
+                                {
+                                    text: 'Multiprocessing',
+                                    link: 'multiprocessing',
                                 },
                             ]
                         },
                         {
                             text: 'Plugins',
-                            collapsed: true,
+                            collapsed: false,
                             items: [
-                                {text: "Notification", link: '/notification'},
+                                {text: "Notification", link: 'notification'},
                             ]
-                        }
+                        },
+                        {text: 'Debugging PyTauri', link: 'debugging-pytauri'},
                     ],
             },
             '/reference/': {
