@@ -4,7 +4,7 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     title: "PyTauri",
     description: "Build native applications using Tauri and Python",
-    base: 'pytauri-docs',
+    base: '/pytauri-docs',
     themeConfig: {
         logo: '/logo.svg',
         // https://vitepress.dev/reference/default-theme-config
