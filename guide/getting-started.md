@@ -18,7 +18,7 @@ Rust.
 
 ::: warning INCOMPLETE DOCUMENTATION
 The documentation is still a work in progress. Return at a later date!  
-The old documentation for the section can be found [here.](https://pytauri.github.io/pytauri/dev/usage/pytauri-wheel/)
+The old documentation for this section can be found [here.](https://pytauri.github.io/pytauri/dev/usage/pytauri-wheel/)
 :::
 
 ## Tauri plugin

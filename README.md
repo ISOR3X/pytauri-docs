@@ -11,7 +11,7 @@ documentation, [click here](https://pytauri.github.io/pytauri/latest/)
    with Rust/ Tauri).
 2. The structure of the documentation is not user-friendly: Commands are explained in two
    places [here](https://pytauri.github.io/pytauri/latest/usage/tutorial/py-js-ipc/)
-   and [here](https://pytauri.github.io/pytauri/latest/usage/concepts/ipc/) while there are some differences they are
+   and [here](https://pytauri.github.io/pytauri/latest/usage/concepts/ipc/). While there are some differences, they are
    nearly identical.
 3. I always found `Material for MkDocs` unappealing to look at, and I am a big fan of `vite`/ `vue`, so this was a great
    excuse to try out `vitepress`. It also allows for easy customization if desired.

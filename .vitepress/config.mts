@@ -4,12 +4,13 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     title: "PyTauri",
     description: "Build native applications using Tauri and Python",
+    base: 'pytauri-docs',
     themeConfig: {
         logo: '/logo.svg',
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: 'Guide', link: '/guide/getting-started', activeMatch: '/guide/'},
-            {text: 'Reference', link: '/reference'},
+            {text: 'Reference', link: 'https://pytauri.github.io/pytauri/latest/reference/py/pyo3_utils/'},
             {text: 'Changelog', link: 'https://github.com/pytauri/pytauri/blob/main/CHANGELOG.md'},
         ],
 
@@ -30,7 +31,7 @@ export default defineConfig({
                             text: 'Inter-process communication',
                             collapsed: false,
                             items: [
-                                {text: 'Overview', link: 'overview'},
+                                {text: 'Overview', link: 'ipc-overview'},
                                 {text: 'Commands', link: 'commands'},
                                 {text: 'Channels', link: 'channels'},
                                 {text: 'Event system', link: 'event-system'},
@@ -59,28 +60,11 @@ export default defineConfig({
                         },
                         {text: 'Debugging PyTauri', link: 'debugging-pytauri'},
                     ],
-            },
-            '/reference/': {
-                base: '/reference/',
-                items: [
-                    {
-                        text: 'Python',
-                        items: [],
-                    },
-                    {
-                        text: 'Rust',
-                        items: [],
-                    },
-                    {
-                        text: 'Javascript',
-                        items: [],
-                    }
-                ]
             }
         },
 
         socialLinks: [
             {icon: 'github', link: 'https://github.com/pytauri/pytauri'}
-        ]
+        ],
     }
 })
