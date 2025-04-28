@@ -13,7 +13,9 @@ export default defineConfig({
             {text: 'Reference', link: 'https://pytauri.github.io/pytauri/latest/reference/py/pyo3_utils/'},
             {text: 'Changelog', link: 'https://github.com/pytauri/pytauri/blob/main/CHANGELOG.md'},
         ],
-
+        search: {
+            provider: 'local'
+        },
         sidebar: {
             '/guide/': {
                 base: '/guide/', items:
@@ -58,7 +60,15 @@ export default defineConfig({
                                 {text: "Notification", link: 'notification'},
                             ]
                         },
-                        {text: 'Debugging PyTauri', link: 'debugging-pytauri'},
+                        {
+                            text: 'Development',
+                            collapsed: false,
+                            items: [
+                                {text: 'Debugging PyTauri', link: 'debugging-pytauri'},
+                                {text: 'Installing from git', link: 'installing-from-git'},
+                            ]
+                        },
+
                     ],
             }
         },

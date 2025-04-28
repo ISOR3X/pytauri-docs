@@ -1,5 +1,10 @@
 # Getting started
 
+::: info
+Getting started with PyTauri currently still requires a bit of manual work. Work is actively being done on a project
+generator, of which progress can be followed [here](https://github.com/pytauri/pytauri/issues/131)
+:::
+
 Currently, there are three ways of getting started with PyTauri:
 
 1. Precompiled wheel: Develop with PyTauri without having to install Rust.
@@ -57,8 +62,9 @@ After `create-tauri-app` has complete you can navigate into your project’s fol
 
 ## Starting templates
 
-- **Vue**  
+- **Vue**
   If you plan on using [Vue](https://vuejs.org/) as a frontend framework, you can use
-  this [pytauri-vue-starter](https://github.com/ISOR3X/pytauri-vue-starter) to get started immediately with development. 
+  this [pytauri-vue-starter](https://github.com/ISOR3X/pytauri-vue-starter) to get started immediately with development.
+  Currently set up for PyTauri version `0.3.0` 
 
 
