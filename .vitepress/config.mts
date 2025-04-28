@@ -48,8 +48,8 @@ export default defineConfig({
                                     link: 'state-management',
                                 },
                                 {
-                                    text: 'Multiprocessing',
-                                    link: 'multiprocessing',
+                                    text: 'Concurrency',
+                                    link: 'concurrency',
                                 },
                             ]
                         },
